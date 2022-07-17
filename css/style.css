@@ -1,0 +1,95 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(../images/pikwizard-art-relief-close.jpeg);
+  background-size: cover;
+  padding: 180px;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+}
+
+.container h1 {
+  font-size: 2em;
+  color: #374edb;
+  font-weight: 700;
+}
+
+.container p {
+  font-size: medium;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+
+.btn-top {
+  background-color: transparent;
+  border: 1px solid #374edb;
+  border-radius: 24px;
+  padding: 14 20;
+  color: #374edb;
+  font-weight: lighter;
+  padding: 15px 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  padding: 20px;
+  box-shadow: 0 0 3px #dcd6d6;
+  text-align: center;
+  border: 1px solid #e5e1e1;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+footer {
+  background-color: bisque;
+  text-align: center;
+  padding: 50px;
+}
+
+footer a {
+  color: #374edb;
+  font-size: 30px;
+}
